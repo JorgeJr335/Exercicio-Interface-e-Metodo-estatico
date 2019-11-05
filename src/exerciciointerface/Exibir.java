@@ -6,9 +6,11 @@ public class Exibir {
     Coordenador c;
     
     public static void professor(Professor p){
-        System.out.println("");
+        System.out.println("Professor "+p.getNome());
+        System.out.println("da disciplina "+p.getDisciplina()+"");
     }
     public static void coordenador(Coordenador c){
-        
+        System.out.println("Coordenador "+c.nome);
+        System.out.println("da escola "+c.escola);
     }
 }

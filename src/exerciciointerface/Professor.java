@@ -25,7 +25,7 @@ public class Professor implements ControleSala {
 
     @Override
     public void abrirSala() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println(nome +" abriu a sala"); 
     }
     
 }

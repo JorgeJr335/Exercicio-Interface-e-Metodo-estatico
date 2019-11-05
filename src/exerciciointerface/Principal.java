@@ -6,7 +6,7 @@ public class Principal {
     public static void main(String[] args) {
         Professor p = new Professor();
         p.setNome("Rodolfo");
-        p.setDisciplina("TPI-2");
+        p.setDisciplina("Química");
         p.abrirSala();
         
         Coordenador c = new Coordenador();
@@ -14,6 +14,9 @@ public class Principal {
         c.escola = "ETEC Peruíbe";
         c.abrirSala();
         
+        Exibir.coordenador(c);
+        System.out.println("------------------------------------");
+        Exibir.professor(p);
         
         
         
